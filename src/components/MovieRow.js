@@ -29,12 +29,16 @@ export default ({title, items}) => {
             <h2>{title}</h2>
             <div className="movieRow--left" onClick={handleLeftArrow}>
                 <a href="/">
-                    <img src="https://cdn-icons-png.flaticon.com/128/467/467274.png" alt="navigate before" />
+            <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-uqopch" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NavigateBeforeIcon" 
+            style={{fill: "white",width: 48,height: 48,}}><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                   
                 </a>
             </div>    
                 <div className="movieRow--right" onClick={handleRightArrow}>
                 <a href="/">
-                    <img src="https://cdn-icons-png.flaticon.com/128/467/467282.png" alt="navigate next" />
+                <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-uqopch" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NavigateNextIcon"
+                style={{fill: "white",width: 48,height: 48,}}><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                    
                 </a>
             </div>
         
